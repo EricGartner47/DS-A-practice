@@ -16,7 +16,6 @@
 //
 
 //Calculate average height
-
 // function calcAvgHeight(data) {
 
 //     if(data.length == 0){
@@ -40,28 +39,30 @@
 //   });
 //   console.log(avgHeight);
 
-function findAllHobbyists(hobby, hobbies) {
-    let resultArr = []
-    for(const [key, value] of Object.entries(hobbies)){
-        console.log(value)
-        if(value.includes(hobby)){
+//Filter object
+// function findAllHobbyists(hobby, hobbies) {
+//     let resultArr = []
+//     for(const [key, value] of Object.entries(hobbies)){
+//         console.log(value)
+//         if(value.includes(hobby)){
 
-            resultArr.push(key)
-        }
-    }
-    return resultArr
-  }
+//             resultArr.push(key)
+//         }
+//     }
+//     return resultArr
+//   }
 
-  const hobbies = {
-    "Steve": ['Fashion', 'Piano', 'Reading'],
-    "Patty": ['Drama', 'Magic', 'Pets'],
-    "Chad": ['Puzzles', 'Pets', 'Yoga']
-  };
+//   const hobbies = {
+//     "Steve": ['Fashion', 'Piano', 'Reading'],
+//     "Patty": ['Drama', 'Magic', 'Pets'],
+//     "Chad": ['Puzzles', 'Pets', 'Yoga']
+//   };
 
-  console.log(findAllHobbyists('Yoga', hobbies));
+//   console.log(findAllHobbyists('Yoga', hobbies));
 
 // //   console.log(Object.entries(hobbies))
 
+//Fix Screen Class
 // class Screen {
 //     constructor(width, height){
 //       this.width = width
@@ -85,6 +86,7 @@ function findAllHobbyists(hobby, hobbies) {
 //   console.log(screen.width)
 //   console.log(screen.height)
 
+//Filter Numbers from Array
 // function filterNumbersFromArray(arr) {
 //     let i = 0;
 //     let j = 0;
@@ -105,3 +107,16 @@ function findAllHobbyists(hobby, hobbies) {
 // // and contain only 1 and 2.
 // for (var i = 0; i < arr.length; i++)
 //   console.log(arr[i]);
+
+//Sorted Squared Array
+// function sortedSquaredArray(array) {
+//     let squared = array.map( a => a * a)
+
+//     return squared.sort((a,b) => a - b);
+
+
+// }
+
+// let array = [1, 2, 3, 5, 6, 8, 9]
+
+// console.log(sortedSquaredArray(array))
