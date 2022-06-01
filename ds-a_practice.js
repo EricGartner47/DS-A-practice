@@ -120,3 +120,16 @@
 // let array = [1, 2, 3, 5, 6, 8, 9]
 
 // console.log(sortedSquaredArray(array))
+
+//Branch sums
+// class BinaryTree {
+//     constructor(value) {
+//         this.value = value;
+//         this.left = null;
+//         this.right = null;
+//     }
+// }
+
+// function branchSums(root) {
+
+// }
